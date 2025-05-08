@@ -55,4 +55,13 @@ public class Articolo {
         System.out.println(descrizioneArticolo);
     }
 
+    @Override
+    public String toString() {
+        return "Articolo{" +
+                "codiceArticolo=" + codiceArticolo +
+                ", descrizioneArticolo='" + descrizioneArticolo + '\'' +
+                ", prezzo=" + prezzo +
+                ", pezziDisponibili=" + pezziDisponibili +
+                '}';
+    }
 }

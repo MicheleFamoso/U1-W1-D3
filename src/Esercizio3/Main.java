@@ -22,7 +22,7 @@ public class Main {
          //Carrello
         Carrello car1 = new Carrello(c1,articoli,tot);
 
-        System.out.println(Arrays.toString(car1.getArticoli()));
+
         System.out.println(car1.getClienteAssociato().getNomeCognome());
         System.out.println(car1.getTotali());
 
@@ -44,6 +44,8 @@ public class Main {
         return totale;
 
     }
+
+
 
 
 }
